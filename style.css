@@ -1,0 +1,41 @@
+
+ 
+body{   
+    height: 100vh;  
+    background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/shoe2.png); 
+    background-size: cover;   
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#img1{
+    width: 350px;  
+}
+
+#img11{
+    width: 350px;  
+}
+
+#img9{
+    width: 355px; 
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actual-price{
+    text-decoration: line-through;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .card{
+      display: flex;
+      flex-direction: column;
+    }
+}
