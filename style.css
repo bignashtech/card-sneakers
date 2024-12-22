@@ -1,11 +1,22 @@
 
- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
 body{   
     height: 100vh;  
-    background: linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/shoe2.png); 
+    background: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/images/shoe2.png); 
     background-size: cover;   
     background-position: center;
     background-repeat: repeat;
+}
+
+#header1{
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #img1{
@@ -16,26 +27,29 @@ body{
     width: 350px;  
 }
 
-#img9{
-    width: 355px; 
-}
-
 .card1{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#actual-price{
-    text-decoration: line-through;
+#card{
+    display: flex;
+    flex-direction: row;
+  }
+  #shoe7{
+    width: 340px;
+}
+
+  #shoe8{
+    width: 390px;
+}
+
+#img9{
+    width: 355px; 
 }
 
 
-
-@media only screen and (max-width: 600px) {
-    
-    .card{
-      display: flex;
-      flex-direction: column;
-    }
+#actual-price{
+    text-decoration: line-through;
 }
